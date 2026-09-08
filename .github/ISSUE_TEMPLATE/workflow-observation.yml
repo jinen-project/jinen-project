@@ -1,0 +1,40 @@
+name: Workflow observation or boundary question
+description: Share a concrete result, counterexample, or question about a public specimen.
+title: "[observation]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only information that is safe to make public. Do not include credentials, private inputs, personal data, or confidential code.
+  - type: input
+    id: specimen
+    attributes:
+      label: Specimen or page
+      description: Which public repository, demo, article, or checklist is this about?
+      placeholder: "wedge-case-0, a Hashnode article, or another public page"
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: What did you try, and under what conditions?
+      placeholder: "Include the relevant command, version or commit, and any safe-to-share conditions."
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What did you observe?
+      placeholder: "Describe the result as concretely as possible."
+    validations:
+      required: true
+  - type: textarea
+    id: expectation
+    attributes:
+      label: What did you expect instead?
+      placeholder: "State your expectation and why it seemed reasonable."
+  - type: textarea
+    id: boundary
+    attributes:
+      label: What boundary or question does this raise?
+      placeholder: "For example: which condition, claim, or workflow step should be checked next?"
