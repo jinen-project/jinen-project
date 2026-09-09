@@ -11,6 +11,7 @@ The work here explores small, inspectable ways to help people keep AI agents fro
 - [wedge-case-2](https://github.com/jinen-project/wedge-case-2) — a zero-dependency demo that keeps handoff readiness, approval, and deployment authorization separate.
 - [wedge-case-3](https://github.com/jinen-project/wedge-case-3) — a zero-dependency demo that adopts only the exact candidate set bound by authorization.
 - [cms-inventory-preflight](https://github.com/jinen-project/cms-inventory-preflight) — a dependency-free CLI that classifies a local content inventory before another draft is created.
+- [claim-scope-review-cli](claim-scope-review-cli/) — a small local helper for checking whether an AI-assisted claim has a recorded observation, evidence label, nonclaims, and next check before it is shared.
 
 ## Field notes and a free checklist
 
@@ -30,6 +31,12 @@ The most useful response is a concrete one:
 Please [open an issue](https://github.com/jinen-project/jinen-project/issues/new/choose) with only material that is safe to make public. Include the conditions you observed and the result you expected or received. We do not treat an issue as a commitment to provide support, ship a feature, or accept a contribution.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the short reporting format.
+
+## One small check before you forward an AI answer
+
+When an AI answer sounds certain, the useful first move is not to make it less useful. It is to make the evidence boundary visible. The [Claim Scope Review CLI](claim-scope-review-cli/) gives you a small local record to fill in before you share a result. It does not decide whether the result is true; it tells you when the record is missing what was observed, what remains unproven, or what to check next.
+
+The same practical guide is available in [Japanese](claim-scope-review-cli/README.ja.md).
 
 ## Scope
 

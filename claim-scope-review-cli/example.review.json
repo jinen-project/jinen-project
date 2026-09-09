@@ -1,0 +1,10 @@
+{
+  "claim": "Three configured tests passed on a staging fixture.",
+  "observation": "Three configured tests passed on the named staging fixture on 2026-09-09; no production deployment was performed.",
+  "evidence_state": "ESTABLISHED_ONCE",
+  "nonclaims": [
+    "Production readiness is not established.",
+    "All runtime paths are not established as safe."
+  ],
+  "next_discriminator": "Run the named acceptance test against the intended deployment environment."
+}
