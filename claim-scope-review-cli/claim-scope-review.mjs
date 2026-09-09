@@ -43,7 +43,7 @@ export function review(input) {
   return {
     status: findings.some((finding) => finding.level === 'HOLD') ? 'HOLD' : findings.some((finding) => finding.level === 'CHECK') ? 'REVIEW' : 'READY_FOR_HUMAN_DECISION',
     findings,
-    boundary: 'This tool checks whether the review record is complete. It does not verify that a claim is true, assess legal compliance, or replace human judgment.'
+    boundary: 'This tool checks whether the review record is complete. It does not verify that a claim is true, decide whether a result is sufficient for its intended use, assess legal compliance, or replace human judgment.'
   };
 }
 

@@ -12,7 +12,7 @@ It checks that you have supplied:
 - at least one explicit nonclaim; and
 - one next discriminator.
 
-If the result is `READY_FOR_HUMAN_DECISION`, the record is complete enough for a person to judge. It does **not** mean the claim is true. This tool does not contact a provider, upload text, assess legal compliance, or replace human review.
+If the result is `READY_FOR_HUMAN_DECISION`, the record is complete enough for a person to judge. It does **not** mean the claim is true or that the result is sufficient for its intended use. The person responsible for the work decides that against the stated acceptance criteria. This tool does not contact a provider, upload text, assess legal compliance, or replace human review.
 
 ## Smallest useful first step
 
