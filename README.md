@@ -1,8 +1,8 @@
 # Jinen Project
 
-Small, runnable specimens and field notes for AI-assisted workflows.
+Small, runnable specimens and field notes for people who use AI-assisted workflows.
 
-The work here focuses on a practical distinction: what can continue, what needs a check before it continues, and what should stop. These are bounded examples, not a claim that one pattern solves every AI workflow.
+The work here explores small, inspectable ways to help people keep AI agents from moving past an important check. The practical distinction is: what can continue, what needs a check before it continues, and what should stop. These are bounded examples, not a claim that one pattern solves every AI workflow.
 
 ## Start here
 
