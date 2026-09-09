@@ -8,6 +8,7 @@ The work here focuses on a practical distinction: what can continue, what needs 
 
 - [wedge-case-0](https://github.com/jinen-project/wedge-case-0) — a four-file, dependency-free demo that separates PASS, HOLD, and STOP in an AI workflow.
 - [wedge-case-1](https://github.com/jinen-project/wedge-case-1) — a small state-machine specimen showing that one held item must not silently hold an entire workflow.
+- [cms-inventory-preflight](https://github.com/jinen-project/cms-inventory-preflight) — a dependency-free CLI that classifies a local content inventory before another draft is created.
 
 ## Field notes and a free checklist
 
