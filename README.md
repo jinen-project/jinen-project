@@ -19,6 +19,12 @@ The work here explores small, inspectable ways to help people keep AI agents fro
 - [Share Preflight](https://github.com/jinen-project/share-preflight) — local-first, configurable checks for the moment before you share technical material with an external AI tool or service. It produces a content-minimised policy receipt for the configured scope; it does not decide that a share is safe.
 
 
+## Before sharing with an external AI service
+
+Share Preflight provides local, configurable checks for the moment before technical material is sent to an external AI tool or service. A passing result is a receipt for the configured checks, not a claim that sharing is safe. If a boundary check is missing, open a public-safe issue using the link below; the `placement:portfolio-hub-readme-v01` tag lets the observation be linked back without treating the issue as validation.
+
+[Report a public-safe boundary observation](https://github.com/jinen-project/jinen-project/issues/new?title=%5Bplacement%3Aportfolio-hub-readme-v01%5D%20Share%20Preflight%20boundary%20observation&body=placement%3Aportfolio-hub-readme-v01%0A%0AWhat%20I%20checked%3A%0AWhat%20I%20observed%3A%0AWhat%20I%20expected%3A)
+
 ## Field notes and a free checklist
 
 
