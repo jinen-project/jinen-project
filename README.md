@@ -18,6 +18,16 @@ The work here explores small, inspectable ways to help people keep AI agents fro
 - [claim-scope-review-cli](claim-scope-review-cli/) — a small local helper for checking whether an AI-assisted claim has a recorded observation, evidence label, nonclaims, and next check before it is shared.
 - [Share Preflight](https://github.com/jinen-project/share-preflight) — local-first, configurable checks for the moment before you share technical material with an external AI tool or service. It produces a content-minimised policy receipt for the configured scope; it does not decide that a share is safe.
 
+## Bounded public extracts
+
+These are small, independently usable releases made from existing work. They do not release complete internal projects, raw records, or production systems. Each repository states its own scope and non-claims.
+
+- [Open-Ended Workflow Kit / 開かれたワークフロー・キット](https://github.com/jinen-project/open-ended-workflow-kit) — a runnable authorization-boundary specimen with synthetic fixtures and tests.
+- [Reversibility Review Kit / 可逆性レビュー・キット](https://github.com/jinen-project/reversibility-review-kit) — a review-engine extract for examining closure, reversibility, recovery, and accumulated concentration; not a future predictor or safety proof.
+- [Decision Trace Casebook / 意思決定トレース事例集](https://github.com/jinen-project/decision-trace-casebook) — a reusable decision-trace template and one clearly fictional minimal case.
+- [Evidence Reading Ledger / 根拠読解台帳](https://github.com/jinen-project/evidence-reading-ledger) — schemas and fully synthetic linked examples for keeping claims, evidence, questions, and reading records distinct.
+- [Notes on Open Worlds / 開かれた世界のノート](https://github.com/jinen-project/notes-on-open-worlds) — a Japanese theory/design note; not an empirical research paper or an implementation claim.
+
 
 ## Before sharing with an external AI service
 
@@ -28,7 +38,7 @@ Share Preflight provides local, configurable checks for the moment before techni
 ## Field notes and a free checklist
 
 
-- [World Reading Note](https://worldreadingnote.hashnode.dev/) — short notes from building, observing, and revising AI-assisted work.
+- [World Reading Note](https://world-reading.pages.dev) — public reading notes.
 - [Before You Create Another Draft, Check What Already Exists](https://worldreadingnote.hashnode.dev/before-you-create-another-draft-check-what-already-exists) — a bounded five-step CMS preflight, based on one observed duplicate-draft correction.
 - [Claim Scope Review Checklist](https://worldreader6.gumroad.com/l/mkebln) — a free checklist for separating what was observed, what is supported, and what remains unproven.
 
