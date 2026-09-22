@@ -24,6 +24,8 @@ These are small, independently usable releases made from existing work. They do 
 
 [公開記録（日本語）](PUBLICATION_RECORD_2026-09-22.ja.md) — what was placed, what its boundary is, and what response has or has not been observed.
 
+[World Reading Placement Log（日本語）](WORLD_READING_PLACEMENT_LOG_2026-09-22.ja.md) — two location-specific technical comments placed in response to existing public issues; no uptake is claimed.
+
 - [Open-Ended Workflow Kit / 開かれたワークフロー・キット](https://github.com/jinen-project/open-ended-workflow-kit) — a runnable authorization-boundary specimen with synthetic fixtures and tests.
 - [Reversibility Review Kit / 可逆性レビュー・キット](https://github.com/jinen-project/reversibility-review-kit) — a review-engine extract for examining closure, reversibility, recovery, and accumulated concentration; not a future predictor or safety proof.
 - [Decision Trace Casebook / 意思決定トレース事例集](https://github.com/jinen-project/decision-trace-casebook) — a reusable decision-trace template and one clearly fictional minimal case.
