@@ -20,6 +20,12 @@
 
 公開後の利用、レビュー、issue、fork、引用、支持、商業的利用は、この記録の時点では観測していない。観測していないことを、不在や失敗の証拠とは扱わない。
 
+## 既存公開物の再検証
+
+- [Wedge Case 3](https://github.com/jinen-project/wedge-case-3) は、Candidate と Authorization の指定が完全に一致するときだけ、Canonicalへ正確な集合を反映するローカルデモである。
+- 2026-09-22に、RA-2 12件、RA-3 16件、公開境界・漏えい検査がすべて成功した。
+- これはデモのローカル検査結果であり、内容の真実性、発行者の権限、公開・配備の承認、本番利用を証明しない。
+
 ## 関連する公開物
 
 - [World Reading Note](https://world-reading.pages.dev) — 公開された読解ノート。
